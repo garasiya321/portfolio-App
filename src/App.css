@@ -1,0 +1,38 @@
+body{
+    background-color: #030c23;
+    color:white;
+}
+.bg1{
+    background-image: url(".././public/images/bg1.jpg");
+    background-size: cover;
+    height: 750px;
+}
+@media only screen and (max-width: 600px) {
+    .bg1{
+        background-image: url(".././public/images/bg1.jpg");
+        background-position:50%;
+        height: 750px;
+    }
+  }
+  .bg1skill{
+    background-image: url(".././public/images/bg2nav.jpg");
+    background-size: cover;
+    height: 600px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.bg1project{
+    background-image: url(".././public/images/bg2p.jpg");
+    background-size: cover;
+    height: 1200px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.bg1about{
+    background-image: url(".././public/images/bg2A.jpg");
+    background-size: cover;
+    height: 1600px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
